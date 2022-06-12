@@ -1,9 +1,10 @@
-let print : Text -> Line =
+let print : Text -> Text -> Line =
+    \(name : Text) ->
     \(text  : Text) ->
         { code = ""
         , emotion = ""
         , event = ""
-        , name = ""
+        , name
         , number = 0
         , pause = ""
         , scene = ""
