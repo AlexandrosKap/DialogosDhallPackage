@@ -7,7 +7,7 @@ let print : Text -> Text -> Line =
         , event = ""
         , name
         , number = 0
-        , pause = ""
+        , pause = 0.0
         , scene = ""
         , sound = ""
         , text
