@@ -1,4 +1,4 @@
-let Line = ./Line.dhall
+let Line = ../Line.dhall
 let print : Text -> Text -> Line =
     \(name : Text) ->
     \(text  : Text) ->

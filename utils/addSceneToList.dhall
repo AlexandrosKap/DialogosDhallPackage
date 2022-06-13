@@ -13,7 +13,7 @@ let map
           )
 ------------------
 
-let Line = ./Line.dhall
+let Line = ../Line.dhall
 
 let IndexedLine =
     { index : Natural
