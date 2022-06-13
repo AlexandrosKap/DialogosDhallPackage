@@ -6,7 +6,9 @@
 , say            = ./lines/say.dhall
 
 -- Events
+, check          = ./events/check.dhall
 , event          = ./events/event.dhall
-, position       = ./events/position.dhall
 , menu           = ./events/menu.dhall
+, position       = ./events/position.dhall
+, set            = ./events/set.dhall
 }
