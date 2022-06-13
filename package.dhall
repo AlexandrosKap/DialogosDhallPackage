@@ -8,6 +8,7 @@
 -- Events
 , check          = ./events/check.dhall
 , event          = ./events/event.dhall
+, goto           = ./events/goto.dhall
 , menu           = ./events/menu.dhall
 , position       = ./events/position.dhall
 , set            = ./events/set.dhall

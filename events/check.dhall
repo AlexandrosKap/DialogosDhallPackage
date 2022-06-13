@@ -1,4 +1,4 @@
--- if [Condition]
--- example: if "__counter > 10"
+-- check [Condition]
+-- example: check "__counter > 10"
 
-./event.dhall "if" ""
+./event.dhall "check" ""
